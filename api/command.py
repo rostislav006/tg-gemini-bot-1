@@ -95,5 +95,3 @@ def excute_command(from_id, command, from_type, chat_id):
         elif command == "list_models":
             return list_models()
 
-    else:
-        return command_format_error_info
